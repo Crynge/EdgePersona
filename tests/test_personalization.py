@@ -1,7 +1,4 @@
-from edgepersona.personalization.engine import (
-    PersonalizationEngine,
-    PersonalizationResult,
-)
+from edgepersona.personalization.engine import PersonalizationEngine
 from edgepersona.personalization.models import FeatureStore, PersonalizationRule
 
 

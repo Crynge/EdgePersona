@@ -7,11 +7,8 @@ from .ast import (
     And,
     Comparison,
     Exists,
-    Function,
     In,
     Node,
-    Not,
-    Or,
     evaluate,
 )
 from ..identity.types import UnifiedProfile

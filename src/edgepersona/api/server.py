@@ -4,9 +4,9 @@ from fastapi import FastAPI, HTTPException
 
 from .. import __version__
 from ..identity import IdentityResolver
-from ..identity.types import RawEvent, UnifiedProfile
+from ..identity.types import RawEvent
 from ..segments import SegmentEngine
-from ..personalization import PersonalizationEngine, PersonalizationResult
+from ..personalization import PersonalizationEngine
 from ..personalization.models import PersonalizationRule
 from ..experimentation import ABTestManager
 from .models import (
